@@ -138,7 +138,6 @@ public class Calon_maba extends JFrame {
             String username = tfUsername.getText();
             String password = new String(pfPassword.getPassword());
 
-            // Simple authentication logic (replace with your own)
             if ((username.equals("admin") && password.equals("pass")) || 
                 (username.equals("moona") && password.equals("moonafic"))) {
                 CardLayout cl = (CardLayout) mainPanel.getLayout();
